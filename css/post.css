@@ -230,7 +230,7 @@ pre .xml .cdata {
   text-decoration: none;
   cursor: pointer;
   letter-spacing: 1px;
-  border-bottom: 3px solid transparent;
+  /* border-bottom: 3px solid transparent; */
 }
 .blog-nav:hover {
   color: #333;

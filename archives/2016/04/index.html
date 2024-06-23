@@ -11,7 +11,7 @@
   
   <title>
     
-      Hello World 
+      archive_a: 2016/4 
       
       
     
@@ -33,10 +33,6 @@
 
 
   
-
-  
-    
-<link rel="stylesheet" href="/css/post.css">
 
   
 
@@ -66,76 +62,66 @@
       <i class="iconfont icon-bookmark"></i>
     </a>
   
-    <a title="github" target="_blank" href="https://github.com/kosne">
-      <i class="iconfont icon-github"></i>
-    </a>
-  
     <a title="email" target="" href="">
       <i class="iconfont icon-envelope"></i>
-    </a>
-  
-    <a title="wechat" target="" href="">
-      <i class="iconfont icon-wechat"></i>
     </a>
   
 </p>
 
 
       <div class="main">
-        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
-<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
+        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
 
-<!-- LaTex Display -->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']]
-    }
-  };
-</script>
+<!-- last: 按年份把文章分组，当前遍历到的年份 -->
+<!-- now: 当前遍历到的文章的发布年份 -->
 
-<div class="post">
-  <h3 class="date">
-    Jun 22, 2024
-  </h3>
-  <h1>
-    Hello World
-  </h1>
-  <div class="content markdown-body">
-    <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span></code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="hljs bash">$ hexo server</code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="hljs bash">$ hexo generate</code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="hljs bash">$ hexo deploy</code></pre>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-  </div>
-  
+<div class="container archives">
+  <div class="post-list">
     
-        
+        <!-- 后续文章的发布年份呈现 -->
+        <div class="content-title">
+          <h2>
+            <span>2016</span>
+          </h2>
+        </div>
+      
+      <div class="post-item" title="永远">
+        <div class="time-m-d">04-15</div>
+        <div class="title">
+          <a href="/2016/04/15/%E6%B0%B8%E8%BF%9C/">
             
+              <span>永远</span>
+            
+          </a>
+        </div>
+      </div>
+    
+        <!-- 后续文章的发布年份呈现 -->
+        <div class="content-title">
+          <h2>
+            <span>2013</span>
+          </h2>
+        </div>
+      
+      <div class="post-item" title="人来人往">
+        <div class="time-m-d">05-18</div>
+        <div class="title">
+          <a href="/2013/05/18/%E4%BA%BA%E6%9D%A5%E4%BA%BA%E5%BE%80/">
+            
+              <span>人来人往</span>
+            
+          </a>
+        </div>
+      </div>
+    
+  </div>
 </div>
+
         <div class="footer">
   
     <div class="footer-more">
       
-        <a target="_blank" rel="noopener" href="https://letxig.com/">Copyright © letxig 2024</a>
-        
-    </div>
-  
-    <div class="footer-more">
-      
-        <a target="_blank" rel="noopener" href="https://github.com/leedom92/hexo-theme-leedom">Theme by Leedom | Powered by Hexo</a>
+        <a target="_blank" rel="noopener" href="https://github.com/leedom92/hexo-theme-leedom">letxig @ 2024 | Powered by Hexo</a>
         
     </div>
   
